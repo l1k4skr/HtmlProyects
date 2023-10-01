@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">My page Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        </br>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        </br>
+        <label for="number" id="number-label">Age (optional)</label>
+        <input type="number" name="age" id="number" min="1" max="125" placeholder="Age" required>
+        </br>
+        <label for="dropdown">Which option best describes your current role?</label>
+        <select name="dropdown" id="dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        </br>
+        <label for="dropdown">Would you recommend My page to a friend?</label> </br>
+        <input type="radio" name="radio-button" id="yes" value="yes"> yes </input>
+        <input type="radio" name="radio-button" id="no" value="no"> no </input>
+        </br>
+        <label for="dropdown">What is your favorite feature of My page?</label> </br>
+        <input type="checkbox" name="option1" id="option1" value="1">
+        <label for="">option 1</label><br>
+        <input type="checkbox" name="option2" id="option2" value="2">
+        <label for="">option 2</label><br>
+        <input type="checkbox" name="option3" id="option3" value="3">
+        <label for="">option 3</label><br>
+        <input type="checkbox" name="option4" id="option4" value="4">
+        <label for="">option 4</label><br>
+
+        <label for="dropdown">What is your favorite feature of My page?</label>
+        <br>
+        <textarea name="aditional-coments" id="aditional-coments" cols="20" rows="5"></textarea>
+        <br>
+        <input type="submit" value="submit" id="submit">
+    </form>
+
+
+</body>
+
+</html>

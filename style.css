@@ -1,0 +1,80 @@
+/* Reseteo general para evitar inconsistencias entre navegadores */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para todo el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Títulos */
+#title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Descripción */
+#description {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Estilo general para el formulario */
+#survey-form {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1); /* Agrega una sombra sutil alrededor del formulario */
+}
+#aditional-coments {
+    resize: none; /* Evita que el usuario pueda cambiar el tamaño del área de texto */
+}
+/* Estilo para las etiquetas */
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+/* Estilo para los botones de radio y casillas de verificación */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre las opciones */
+
+}
+
+/* Estilo para el botón de enviar */
+#submit {
+    background-color: #2c3e50; /* Fondo azul oscuro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+#submit:hover {
+    background-color: #34495e; /* Un tono más oscuro cuando pasas el cursor */
+}
