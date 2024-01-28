@@ -1,0 +1,49 @@
+/*
+-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif
+*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Helvetica Neue', Arial, sans-serif
+}
+
+
+#main {
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 30px 8px 30px 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+
+header p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section-1 {
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+/* 
+    Lo dejamos hasta aqui
+    
+*/
